@@ -7,9 +7,55 @@
   </head>
 
   <body>
-    <h1>Hello World, we are software developers!</h1>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <header id="header">
+      <div class="row header-container">
+        <img src="./logo.png" alt="Logo" id="header-img" />
+        <nav id="nav-bar">
+          <ul class="nav-links">
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#how" class="nav-link">How it Works</a></li>
+            <li><a href="#price" class="nav-link">Pricing</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
+    <section class="section-form">
+      <div class="row">
+        <form
+          action="https://www.freecodecamp.com/email-submit"
+          method="post"
+          id="form"
+        >
+          <input
+            required
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Enter email"
+          />
+          <input id="submit" type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+
+    <section>
+      <div class="row" id="features">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+    <section id="how" class="section-how"></section>
+    <section id="price" class="section-price"></section>
     <!--
 
     Hello Camper!

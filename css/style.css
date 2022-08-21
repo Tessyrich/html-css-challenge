@@ -1,0 +1,41 @@
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+
+  height: 90px;
+  background-color: #eeeeee;
+}
+
+.header-container {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+#header-img {
+  height: 40px;
+}
+
+.row {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.section-form {
+  height: 400px;
+}
+
+@media (max-width: 900px) {
+  .section-form {
+    height: 300px;
+  }
+}
